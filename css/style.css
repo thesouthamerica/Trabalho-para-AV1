@@ -1,0 +1,178 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#divBusca{
+    background-color: #F4F9FF;
+    border-radius: 5px;
+    width:300px;
+    height:32px;
+  }
+  
+#txtBusca{
+    
+    float:left;
+    background-color:transparent;
+    color:#000;
+    padding-left:5px;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:290px;
+  }
+
+button{
+    width: 200px;
+    margin: 60px 0px 0px -10px;
+    padding: 14px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    background-color: #2E68FF;
+    color: #fff;
+}
+p.nome{
+    margin: 20px 0px 0px 0px;
+}
+p.valor{
+    color: #2E68FF;
+    margin: 60px 0px 0px 0px;
+    font-size: 64px;
+
+        
+}
+a{
+    text-decoration: none;
+    margin: auto;
+    padding: 10px;
+    gap: 48px;
+}
+
+h2{
+    font-size: 46px;
+    color: #000000;
+}
+section.centro{
+    width: 1216px;
+    margin: 0px auto;
+}
+
+header section.centro{
+    display: flex;
+  
+    /* alinhamento de itens: 
+    center, flex-start, flex-end, baseline, strech */
+    align-items: center;
+    /* Justificar Conteudo: 
+    center, end, start, normal, space-around, space-between */
+    justify-content: space-between;
+    padding: 25px 0px 80px 0px;
+}
+
+
+/* conteudo*/  
+
+section.fone-01{
+    width: 1216px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav#texto{
+    width: 490px;
+    
+}
+section.espaco{
+    padding: 168px 0px 0px 0px;
+}
+h3#bluetooth{
+    color:#2E68FF;
+    text-align: center;
+}
+section.meio{
+    width: 920px;
+    margin: 26px auto;
+    text-align: center;
+    font-size: 64px;
+}
+
+section.carrossel{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+section.espaco2{
+    padding: 200px 0px 0px 0px;
+}
+section.foto{
+    background-color: #2E68FF;
+    display: flex;
+    gap: 50px;
+    padding: 96px 96px 96px 96px;
+    margin: 0px 195px;
+    justify-content: space-between;
+}
+p.foto{
+    padding: 0px 0px 90px 0px;
+    font-size: 54px;
+    color:#fff    
+}
+img#logo3{
+    padding: 0px 0px 20px 0px;
+}
+p#end{
+
+    color: #fff;
+}
+section.espaco3{
+    padding: 150px 0px 0px 0px;
+}
+
+/* fim do conteudo*/
+
+footer{
+    padding: 0px auto;
+    margin: 0px auto;
+    color: #fff;
+    background-color: #1A1A1A;
+      
+} 
+div#footer-text{
+    padding: 40px 100px 40px 100px;
+    display: flex;
+    justify-content:space-around;
+}
+nav#footer-text{
+    
+    margin: 15px;
+    color:#fff
+}
+section.whatsapp{
+    margin: 15px;
+}
+
+
+
+/* Faça seu código aqui 👇 */
